@@ -1,0 +1,99 @@
+Test Plan ID: TP-ZB-001
+
+1. Introduction
+
+This test plan is for testing the Zero Bank home page. The main aim is to check if login, navigation, and links on the homepage are working properly in different conditions.
+
+2. What to Test
+
+Login fields: Username, Password
+
+Sign In button
+
+Tabs: Home, Online Banking, Feedback
+
+More Services button
+
+Redirection to: Checking Account Activity, Transfer Funds, My Money Map
+
+Links: Micro Focus Terms & Conditions, Micro Focus Privacy
+
+3. Features in Testing
+
+Login process (username, password, sign-in button)
+
+Tabs navigation
+
+More Services button
+
+Redirection to other pages (Checking, Transfer, Money Map)
+
+Micro Focus links (T&C, Privacy)
+
+4. Not Testing
+
+Download Web/Inspect link
+
+Terms of Use link
+
+Privacy Statement
+
+5. Approach
+
+Manual testing
+
+Black box testing (focus only on inputs/outputs)
+
+6. Pass/Fail Rules
+
+Pass: User can login, move to other pages, and links work fine.
+
+Fail: Login not working, buttons not working, redirections fail.
+
+If many cases fail, testing will pause and restart after fixes.
+
+7. What Will Be Delivered
+
+Test Cases (Excel)
+
+Test Report
+
+Test Plan
+
+Test Summary
+
+Bug Report
+
+Review Document
+
+8. Environment
+
+Windows 11 laptop/PC
+
+Browsers: Chrome, Firefox
+
+Devices: Desktop, Mobile, Tablet
+
+Tools: Excel for test cases, internet connection
+
+9. Responsibility
+
+Samarth – Will prepare test cases, execute them, and make reports
+
+10. Training Needed
+
+Not needed for now
+
+11. Schedule
+
+Planned Date: 05/08/2025
+
+12. Risks
+
+No big risks, but internet failure may affect testing
+
+13. Approvals
+
+Manager: Vaishali Mam
+
+Tester: Samarth
