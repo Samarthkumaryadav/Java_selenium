@@ -1,0 +1,76 @@
+Test Plan for Amazon Registration
+
+Test Plan ID: TP-AMZ-001
+
+1. Introduction
+
+This plan is made to test the Amazon registration page.
+The goal is to check if a new user can make an account properly, OTP works fine, error messages come for wrong inputs, and login works after account is created.
+
+2. What to Test
+
+Name, Email/Mobile, Password, Re-enter Password fields
+Continue and Create Account buttons
+OTP send and verify (email or mobile)
+Error messages when fields are empty or wrong
+Account creation with correct details
+
+3. Features in Testing
+
+Field validation (like email format, password length)
+Error messages showing correctly
+OTP check (valid, wrong, expired)
+Account creation with correct data
+Login after registration
+
+4. Not Testing
+
+Privacy link
+Terms & Conditions link
+
+5. Approach
+
+Manual testing
+Black box method (only checking inputs/outputs, not code)
+
+6. Pass/Fail Rules
+
+Pass: User can register and login fine.
+Fail: OTP not working, account not created, errors not shown.
+If too many test cases fail, testing will stop and restart after fixing.
+
+7. What Will Be Given
+
+Test cases in Excel
+Test report
+Bug report
+Final summary
+
+8. Environment
+
+Windows 11 laptop
+Chrome and Firefox browsers
+Mobile and tablet also
+Excel for test cases, Selenium for automation (if needed)
+
+9. Responsibility
+
+Samarth: Write test cases, test execution, make reports
+
+10. Training Needed
+
+Basic Selenium practice
+
+11. Schedule
+
+Testing Date: 05/08/2025
+
+12. Risks
+
+No big risks, but if OTP service fails then use test OTP.
+
+13. Approvals
+
+Manager: Vaishali Mam
+
+Tester: Samarth
